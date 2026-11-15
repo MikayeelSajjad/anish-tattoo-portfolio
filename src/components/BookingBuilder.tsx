@@ -10,8 +10,8 @@ export default function BookingBuilder() {
   const [notes, setNotes] = useState<string>("");
 
   const styles = ["Fine Line", "Geometric", "Surrealism", "Dark Art"];
-  const placements = ["Forearm", "Upper Arm / Sleeve", "Spine / Back", "Ribs / Sternum", "Leg / Calf", "Custom"];
-  const sizes = ["Small (2-3\")", "Medium (4-6\")", "Large (7-10\")", "Full Piece / Multi-session"];
+  const placements = ["Forearm", "Upper Arm / Deltoid", "Wrist / Ankle", "Collarbone / Shoulder", "Leg / Calf", "Custom"];
+  const sizes = ["Micro / Fine Line (1-2\")", "Small (2-3\")", "Medium (4-6\")", "Custom Focus Piece"];
 
   const buildWhatsAppUrl = () => {
     const rawMessage = `Hello Anish! I would like to book a tattoo session with you at your Islamabad Studio.\n\n` +
